@@ -18,3 +18,5 @@ export const getBooking = async (req, res, next) => {
       next(err);
     }
   };
+
+  

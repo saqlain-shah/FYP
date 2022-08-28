@@ -21,6 +21,7 @@ const connect = async () => {
   }
 };
 
+
 mongoose.connection.on("disconnected", () => {
   console.log("mongoDB disconnected!");
 });
@@ -52,3 +53,5 @@ app.listen(8800, () => {
   console.log("server listen on port 8800");
   console.log("Connected to backend.");
 });
+
+

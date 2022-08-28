@@ -16,3 +16,5 @@ router.get("/list", verifyUser, bookingList);
 router.delete("/checkout/:id", verifyUser, checkOut);
 
 export default router;
+
+
